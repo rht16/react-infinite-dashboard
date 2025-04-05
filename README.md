@@ -38,6 +38,20 @@ yarn dev
 
 ```
 
+## 📦 Project Structure
+- `src/`
+  - `components/` – Reusable UI components
+  - `context/`
+    - `AuthProvider.jsx` – Provides authentication context
+  - `hooks/`
+    - `useAuth.js` – Custom hook to access auth state
+  - `pages/`
+    - `Login.jsx`
+    - `Register.jsx`
+    - `Dashboard.jsx`
+  - `App.jsx` – Route configuration
+  - `main.jsx` – Entry point of the app
+
 ✨ Features
 
 	•	⚡ Vite-powered React App with blazing fast builds and HMR
